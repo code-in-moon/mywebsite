@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-div {
+  height: 10vh;
+  background-color: crimson;
+}
+.screen-div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#banner {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../images/virtualr.jpeg") center/cover no-repeat fixed;
+}
+#content {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../images/virtualr.jpeg") center/cover no-repeat fixed;
+}
+#footer {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../images/virtualr.jpeg") center/cover no-repeat fixed;
+}
+
+.side-div {
+  background-color: cornflowerblue;
+  width: 15vw;
+  min-height: 100vh;
+}
+.main-div {
+  width: 90vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
